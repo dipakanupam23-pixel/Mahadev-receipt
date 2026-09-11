@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Mahadev Receipt</title>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="./manifest.json?v=1">
+
+  <!-- Mahadev Receipt Icons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=1">
+  <link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png?v=1">
+
+  <!-- iPhone / iPad Home Screen Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=1">
+  <link rel="apple-touch-icon-precomposed" href="./apple-touch-icon.png?v=1">
+
+  <meta name="theme-color" content="#8B0000">
+
+  <style>
+    html,
+    body{
+      width:100%;
+      height:100%;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      background:#f4f6f9;
+    }
+
+    iframe{
+      width:100%;
+      height:100%;
+      border:none;
+      display:block;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- IMPORTANT:
+       Replace the URL below with the /exec URL of your
+       current Omkareshwar Mahadev Donation Receipt
+       Google Apps Script Web App deployment.
+  -->
+  <iframe
+    src="PASTE_YOUR_MAHADEV_GAS_WEB_APP_EXEC_URL_HERE"
+    title="Mahadev Receipt">
+  </iframe>
+
+</body>
+</html>
